@@ -1,0 +1,15 @@
+.places {
+    margin: 0 auto;
+    list-style: none;
+    padding: 98px 92px;
+    
+
+
+}
+
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+*/
