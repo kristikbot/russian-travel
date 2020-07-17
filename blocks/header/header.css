@@ -7,4 +7,21 @@
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ max-width: calc(100vw - 96px);
+ margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: calc(100vw - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: calc(100vw - 32px);
+        
+        
+        
+}
 }
