@@ -14,3 +14,35 @@
    
 }
 
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        top: 379px;
+        left: 332px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        
+        top:299px;
+        left: 204px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 16px;
+        top: 119px;
+        left: 16px;
+
+    }
+}
+
+
+
