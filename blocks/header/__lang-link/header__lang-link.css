@@ -1,5 +1,5 @@
 .header__lang-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
     font-style: normal;
     font-weight: normal;
@@ -9,4 +9,10 @@
 
 .header__lang-link:last-child {
   margin-left: 18px;
+  text-decoration: none;
 }
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .header__lang-link {
+        font-size: 18px;
+    }}
