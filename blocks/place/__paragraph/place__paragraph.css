@@ -7,14 +7,6 @@
     line-height: 167%;
 }
 
-/*
-@media screen and (min-width:320px) and (max-width:767px)  {
-  .place__paragraph  {
-    margin: 0 16px 24px 16px;
-  }
-}
-*/
-
 .place__paragraph:first-child {
     margin-bottom: 24px;
 }
