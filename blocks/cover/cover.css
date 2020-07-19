@@ -3,17 +3,28 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-    max-width: 1280px;
-    height: 740px;
-    margin: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- 
+   background-image: url('../../images/cover-trains.jpg');
+   margin: 0 auto;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1280px;
+   width: 100%;
+
 }
-  
+
+/*
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+    transition: 0.5s ease-in-out 0.5s;
+}
+
+*/
+
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
@@ -21,7 +32,6 @@
 
     }
 }
-
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 768px;
