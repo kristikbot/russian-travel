@@ -1,5 +1,5 @@
 .header__lang-link {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffffff;
     font-style: normal;
     font-weight: normal;
@@ -16,3 +16,8 @@
     .header__lang-link {
         font-size: 18px;
     }}
+
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
