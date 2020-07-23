@@ -1,3 +1,5 @@
+@import url(./_active/header__lang-link_active.css);
+
 .header__lang-link {
     text-decoration: none;
     color: #ffffff;
@@ -19,5 +21,5 @@
 
 
 .header__lang-link:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
