@@ -6,6 +6,7 @@
     line-height: 112%;
     text-decoration: none;
     color: #ffffff;
+    list-style: none;
 }
 
 .footer__link:hover {
