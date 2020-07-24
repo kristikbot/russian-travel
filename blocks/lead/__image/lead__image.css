@@ -1,9 +1,13 @@
 .lead__image{
     width: 100%;
-    min-height: 615px;
+    /*min-height: 615px;*/
+    max-width: 984px;
+    object-fit: fill;
+    object-position: center;
+    margin: auto;
 }
 
-@media screen and (min-width: 1024px) {
+/*@media screen and (min-width: 1024px) {
     .lead__image  {
         min-height: 580px;
     }
@@ -21,3 +25,11 @@
 
     }
 }
+  */
+  
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .lead__image {
+      margin: auto;
+      padding: 0;
+    }
+  }
