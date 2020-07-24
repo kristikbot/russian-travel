@@ -64,6 +64,12 @@
     }
 }
 
+@media screen and (max-width:320px) {
+    .place {
+      padding-bottom: 48px;
+  
+    }}
+
 
   /*@media screen and (max-width:767px) {
     .place {
@@ -75,9 +81,5 @@
       grid-row-gap: 32px;
     }
   }
-  @media screen and (max-width:320px) {
-    .place {
-      padding-bottom: 48px;
   
-    }
   }*/
