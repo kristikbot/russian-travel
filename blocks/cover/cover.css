@@ -14,12 +14,10 @@
    align-items: center;
    max-width: 1184px;
    width: 100%;
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover {
-        /*max-width: 1024px;*/
         min-height: 640px;
 
     }
@@ -32,8 +30,7 @@
 }
 
 @media screen and (min-width: 450px) and (max-width: 768px)  {
-    .cover {
-        
+    .cover { 
         min-height: 480px;
     }
 }

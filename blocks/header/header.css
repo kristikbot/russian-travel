@@ -8,7 +8,6 @@
  flex-direction: row;
  justify-content: space-between;
  max-width: 1184px;;
- /*width: calc(100% - 96px);*/
  padding: 28px 48px 0 48px;
  margin: 0 auto;
 
@@ -16,18 +15,12 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        /*width: calc(100% - 48px);*/
         padding: 28px 24px 0 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        /*width: calc(100% - 32px);*/
         padding: 16px 16px 0 16px;
-
-        
-        
-        
-}
+    }
 }
